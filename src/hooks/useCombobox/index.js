@@ -441,6 +441,7 @@ function useCombobox(userProps = {}) {
             onChange,
             onInput,
             inputHandleChange,
+            onChangeText,
           ),
           onKeyDown: callAllEventHandlers(onKeyDown, inputHandleKeyDown),
           onBlur: callAllEventHandlers(onBlur, inputHandleBlur),
